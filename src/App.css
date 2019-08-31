@@ -1,0 +1,54 @@
+* {
+    color: grey;
+}
+
+.App-header {
+    min-height: 25vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: black;
+}
+
+.App-main {
+    background-color: #f1f4f7;
+    min-height: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+}
+
+a > p {
+    color: #009eff;
+    font-weight: bold;
+}
+
+hr {
+    margin: 0 20px;
+}
+
+Button[type=submit] {
+    margin: 20px;
+    height: 38px;
+    padding: 0 50px;
+    background-color: #009eff;
+    border: none;
+}
+
+
+.badge {
+    margin: 10px;
+    background-color: grey;
+    border-radius: 1em;
+    color: white;
+}
+
+.badge.current {
+    margin: 10px;
+    background-color: #009eff;
+    border-radius: 1em;
+}
